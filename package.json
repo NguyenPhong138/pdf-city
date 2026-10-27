@@ -1,0 +1,26 @@
+{
+  "name": "thanh-pho-pdf",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Thành phố PDF: tách, gộp, OCR, DPI/độ sâu màu, PDF/A — chạy offline, tự cập nhật.",
+  "scripts": {
+    "vendor": "node tools/vendor.mjs",
+    "build": "node tools/build.mjs",
+    "serve": "node tools/serve.mjs",
+    "start": "node tools/vendor.mjs && node tools/build.mjs && node tools/serve.mjs"
+  },
+  "devDependencies": {
+    "@fontsource/be-vietnam-pro": "5.0.8",
+    "@fontsource/bungee": "5.0.8",
+    "@fontsource/jetbrains-mono": "5.0.18",
+    "@pdf-lib/fontkit": "1.1.1",
+    "@tesseract.js-data/eng": "1.0.0",
+    "@tesseract.js-data/vie": "1.0.0",
+    "dejavu-fonts-ttf": "2.37.3",
+    "jszip": "3.10.1",
+    "pdf-lib": "1.17.1",
+    "pdfjs-dist": "3.11.174",
+    "tesseract.js": "5.1.1",
+    "tesseract.js-core": "5.1.1"
+  }
+}
